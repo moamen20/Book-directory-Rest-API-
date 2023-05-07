@@ -6,7 +6,7 @@ This project is a REST API for managing a book directory. It provides endpoints 
 ## Getting Started
 
 
-The server will start on port 3000 by default. You can change this by setting the `PORT` environment variable.
+The server will start on port 5000 by default. You can change this by setting the `PORT` environment variable.
 
 ### Usage
 
@@ -18,5 +18,9 @@ The API provides the following endpoints:
 - `PUT /books/:id`: Update an existing book by ID.
 - `DELETE /books/:id`: Delete a book from the directory by ID.
 
-The request and response bodies are in JSON format.
+TODO
+ Use a MongoDB to store book information.
+ Implement authentication and authorization to secure the API.
+ Add unit and integration tests to ensure API functionality.
+
 
