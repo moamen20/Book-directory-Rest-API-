@@ -18,9 +18,10 @@ The API provides the following endpoints:
 - `PUT /books/:id`: Update an existing book by ID.
 - `DELETE /books/:id`: Delete a book from the directory by ID.
 
-TODO
- Use a MongoDB to store book information.
- Implement authentication and authorization to secure the API.
- Add unit and integration tests to ensure API functionality.
+
+## TODO
+- [ ] Use MongoDB to store book information.
+- [ ] Implement authentication and authorization to secure the API.
+- [ ] Add unit and integration tests to ensure API functionality.
 
 
